@@ -14,7 +14,7 @@ void rev_string(char *s)
 	char *startptr;
 	char *endptr;
 	char temp;
-	
+
 	l = _strlen(s);
 	startptr = s;
 	endptr = s;
