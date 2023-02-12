@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*  - desc
+*  _strchr - look for a letter and point to the first instance of it
 * @c: character to locate
 * @s: string
 * Return: Always 0
