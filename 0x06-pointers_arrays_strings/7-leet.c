@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "holberton.h"
 /**
 * leet - replace AEOTLaeotl with 43071
 * @str: string of Real speak
@@ -21,6 +22,7 @@ char *leet(char *str)
 				str[i] = leet[j];
 			}
 		}
+		i++;
 	}
 	return (str);
 }
