@@ -16,9 +16,11 @@ unsigned int _strspn(char *s, char *accept)
 		while ((s[j] >= 'a' && s[j] <= 'z') || (s[j] >= 'A' && s[j] <= 'Z'))
 		{
 			if (accept[i] == s[j])
-			count++;
-		}
+			{
+				count++;
+			}
 		j++;
+		}
 	}
 	return (count);
 }
