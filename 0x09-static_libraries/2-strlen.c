@@ -1,10 +1,17 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
+
+/**
+* _strlen - print length of string
+* @s: string in question
+* Return: Always 0
+*/
 
 int _strlen(char *s)
 {
-    return strlen(s);
+	int i;
+
+	for (i = 0 ; s[i] ; i++)
+		;
+
+	return (i);
 }

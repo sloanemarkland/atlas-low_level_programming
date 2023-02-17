@@ -1,10 +1,18 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
+
+/**
+* _memcpy - copy memory area
+* @dest: destination $mrklnd
+* @src: original area
+* @n: num of bytes
+* Return: Always 0
+*/
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-    return memcpy(dest, src, n);
+	unsigned int i = 0;
+
+	for (; i < n; i++)
+		dest[i] = src[i];
+	return (dest);
 }

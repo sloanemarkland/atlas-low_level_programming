@@ -1,10 +1,19 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
+
+/**
+* _memset - write function that fills mem with constant byte
+* @s: pointer $mrklnd
+* @b: constant byte
+* @n: space in memory to be modified
+* Return: Always 0
+*/
 
 char *_memset(char *s, char b, unsigned int n)
 {
-    return memset(s, b, n);
+	unsigned int i = 0;
+
+	for (; i < n; i++)
+		s[i] = b;
+
+	return (s);
 }

@@ -1,10 +1,23 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-
+/**
+* _strpbrk - locate first occurrence in string s
+* @s: string to point to $mrklnd
+* @accept: original string
+* Return: s
+*/
 char *_strpbrk(char *s, char *accept)
 {
-    return strpbrk(s, accept);
+	int i, j;
+
+	for (i = 0; s[i]; i++)
+	{
+		for (j = 0; accept[j]; j++)
+		{
+			if (s[i] == accept[j])
+			{
+				return (s + i);
+			}
+		}
+	}
+	return (0);
 }
