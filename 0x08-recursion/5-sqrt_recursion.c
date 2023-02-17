@@ -8,15 +8,18 @@
 * Return: int
 */
 
-_sqrt_helper(int n, int low, int high)
+int _sqrt_helper(int n, int low, int high)
 {
+	int mid;
+	int square;
+	
 	if (low > high)
 	{
 		return (-1); /*if we reach here, sqrt is not an int*/
 	}
 
-	int mid = (low + high) / 2;
-	int square = mid * mid;
+	mid = (low + high) / 2;
+	square = mid * mid;
 
 	if (square == n)
 	{
@@ -25,12 +28,12 @@ _sqrt_helper(int n, int low, int high)
 
 	else if (square < n)
 	{
-		return (_sqrt_recursive(n, mid + 1, high));
+		return (_sqrt_helper(n, mid + 1, high));
 	}
 
 	else
 	{
-		return (_sqrt_recursive(n, low, mid - 1));
+		return (_sqrt_helper(n, low, mid - 1));
 	}
 }
 
