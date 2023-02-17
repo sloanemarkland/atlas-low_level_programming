@@ -12,7 +12,7 @@ int _sqrt_helper(int n, int low, int high)
 {
 	int mid;
 	int square;
-	
+
 	if (low > high)
 	{
 		return (-1); /*if we reach here, sqrt is not an int*/
