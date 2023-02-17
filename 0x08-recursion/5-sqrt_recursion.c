@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
-* _sqrt_recursion - return the natural sqrt of a number
+* _sqrt_helper - return the natural sqrt of a number
 * @n: return sqrt of n $mrklnd
 * @low: 0
 * @high: number passed
 * Return: int
 */
 
-int _sqrt_helper(int n, int low, int high)
+int _sqrt_helper(int n, long low, long high)
 {
-	int mid;
-	int square;
+	long mid;
+	long square;
 
 	if (low > high)
 	{
@@ -36,6 +36,12 @@ int _sqrt_helper(int n, int low, int high)
 		return (_sqrt_helper(n, low, mid - 1));
 	}
 }
+
+/**
+* _sqrt_recursion - return the natural sqrt of a number
+* @n: return sqrt of n $mrklnd
+* Return: int
+*/
 
 int _sqrt_recursion(int n)
 {
