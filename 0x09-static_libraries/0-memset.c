@@ -2,7 +2,7 @@
 
 /**
 * _memset - write function that fills mem with constant byte
-* @s: pointer $mrklnd
+* @s: pointer
 * @b: constant byte
 * @n: space in memory to be modified
 * Return: Always 0

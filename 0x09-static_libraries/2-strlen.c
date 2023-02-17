@@ -2,7 +2,7 @@
 
 /**
 * _strlen - print length of string
-* @s: string in question
+* @s: string in question $mrklnd
 * Return: Always 0
 */
 

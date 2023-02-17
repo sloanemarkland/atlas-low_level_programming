@@ -2,7 +2,7 @@
 
 /**
 * _abs - absolute value of int
-* @n: if pos num, print, else * -1
+* @n: if pos num, print, else * -1 $mrklnd
 * Return: Always 0
 */
 

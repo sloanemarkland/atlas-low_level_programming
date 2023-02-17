@@ -1,3 +1,1 @@
-Create the static library libmy.a containing all the functions listed below:
-$mrklnd
-deleted in case of issue with prototypes causing issues??
+Readme for 0x09 and i love static libraries

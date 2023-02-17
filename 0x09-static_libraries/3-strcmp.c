@@ -2,7 +2,7 @@
 
 /**
 * _strcmp - compare 2 strings
-* @s1: first string
+* @s1: first string $mrklnd
 * @s2: second string
 * Return: Always 0
 */

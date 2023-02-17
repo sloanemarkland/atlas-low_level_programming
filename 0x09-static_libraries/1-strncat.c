@@ -2,7 +2,7 @@
 
 /**
 * _strncat - concatenate 2 strings using n bytes
-* @dest: s1 - Hello
+* @dest: s1 - Hello $mrklnd
 * @src: s2 - World!
 * @n: number of bytes from src
 * Return: Always 0

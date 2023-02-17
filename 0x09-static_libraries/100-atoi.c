@@ -1,12 +1,9 @@
-#include "main.h"
-
-/**
- * _atoi - we aren't sure
- * @s: you know $mrklnd
- * Return: 0
-*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 int _atoi(char *s)
 
 {
-    return (0);
+    return atoi(s);
 }

@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _isupper - printing alphabet uppercase
-* @c: if upper, return 1 $mrklnd
+* @c: if upper, return 1
 * Return: Always 0
 */
 

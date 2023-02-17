@@ -2,7 +2,7 @@
 
 /**
 * _puts - print a string \n to stdout
-* @str: pointer
+* @str: pointer $mrklnd
 * Return: Always 0
 */
 
