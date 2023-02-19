@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - print all args received, one per line
+* main - multiply 2 numbers, if 2 num not given print Error & return 1
 * @argc: num of command-line args passed to program
 * @argv: array of pointers to command-line args
 * $mrklnd
@@ -10,12 +10,16 @@
 
 int main(int argc, char *argv[])
 {
-	int i = 0;
+	int i = atoi(argv[1]);
+	int j = atoi(argv[2]);
+	int sum = i * j;
 
-	for ( ; i < argc; i++)
+	if (argc < 3)
 	{
-		printf("%s\n", argv[i]);
+		printf("Error\n");
+		return (1);
 	}
 
+	printf("%d\n", sum);
 	return (0);
 }
