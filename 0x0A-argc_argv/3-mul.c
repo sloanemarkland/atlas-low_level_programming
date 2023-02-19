@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j, sum;
+	int i, j, product;
 
 	if (argc < 3)
 	{
@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
 	}
 	i = atoi(argv[1]);
 	j = atoi(argv[2]);
-	sum = i * j;
+	product = i * j;
 
-	printf("%d\n", sum);
+	printf("%d\n", product);
 	return (0);
 }
