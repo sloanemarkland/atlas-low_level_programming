@@ -17,10 +17,8 @@ char *create_array(unsigned int size, char c)
 	if (sunshine == NULL || size <= 0)
 		return (NULL);
 
-
 	for (rgb = 0; rgb < size; rgb++)
-
-		sunshine[rgb] = c;
+	sunshine[rgb] = c;
 
 	return (sunshine);
 }
