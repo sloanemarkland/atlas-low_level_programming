@@ -12,17 +12,15 @@ char *create_array(unsigned int size, char c)
 {
 	unsigned int rgb;
 
-	char *sunshine = (char*)malloc(size * sizeof(char));
+	char *sunshine = (char *)malloc(size * sizeof(char));
 
-	if (sunshine == NULL)
-	{
+	if (sunshine == NULL || size <= 0)
 		return (NULL);
-	}
+
 
 	for (rgb = 0; rgb < size; rgb++)
-	{
+
 		sunshine[rgb] = c;
 
-	}
-	return sunshine;
+	return (sunshine);
 }
