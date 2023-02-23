@@ -2,7 +2,7 @@
 
 /**
 * _strcpy - copy the string pointed to by src, incl null
-* @dest: points to buffer
+* @dest: points to buffer $mrklnd
 * @src: points to string
 * Return: Always 0
 */

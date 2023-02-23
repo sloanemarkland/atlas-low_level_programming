@@ -2,7 +2,7 @@
 
 /**
 *_islower - check the code.
-*@c: if c is lower = 1, else 0
+*@c: if c is lower = 1, else 0 $mrklnd
 *Return: Always 0
 */
 

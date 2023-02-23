@@ -2,7 +2,7 @@
 
 /**
 * _memcpy - copy memory area
-* @dest: destination
+* @dest: destination $mrklnd
 * @src: original area
 * @n: num of bytes
 * Return: Always 0

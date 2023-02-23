@@ -2,7 +2,7 @@
 
 /**
 * _isdigit - check for digit
-* @c: if digit, return 1, else 0
+* @c: if digit, return 1, else 0 $mrklnd
 * Return: Always 0
 */
 

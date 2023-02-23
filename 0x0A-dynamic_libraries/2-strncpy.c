@@ -2,7 +2,7 @@
 
 /**
 * _strncpy - copy a string
-* @dest: str1
+* @dest: str1 $mrklnd
 * @src: str2
 * @n: idk
 * Return: Always 0

@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strstr - find first occurance of substring in larger string
- * @haystack: pointer to string
+ * @haystack: pointer to string $mrklnd
  * @needle: pointer to substring
  * Return: pointer to sub or NULL
 */
@@ -30,5 +31,5 @@ char *_strstr(char *haystack, char *needle)
 		}
 		haystack++;
 	}
-	return (0);
+	return (NULL);
 }

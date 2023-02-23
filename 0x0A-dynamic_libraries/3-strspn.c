@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _strspn - get length of prefix substring
-* @s: asdf
+* @s: asdf $mrklnd
 * @accept: prefix substring
 * Return: Always 0
 */

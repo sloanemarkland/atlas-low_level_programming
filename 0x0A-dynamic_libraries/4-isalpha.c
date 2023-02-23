@@ -2,7 +2,7 @@
 
 /**
 * _isalpha - check for letter
-* @c: if letter, return 1, else 0
+* @c: if letter, return 1, else 0 $mrklnd
 * Return: Always 0
 */
 

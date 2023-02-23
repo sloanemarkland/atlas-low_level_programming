@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _strpbrk - locate first occurrence in string s
-* @s: string to point to
+* @s: string to point to $mrklnd
 * @accept: original string
 * Return: s
 */

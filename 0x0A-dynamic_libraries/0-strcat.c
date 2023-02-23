@@ -2,7 +2,7 @@
 
 /**
 * _strcat - concatenate dest+src+\0
-* @dest: destination
+* @dest: destination $mrklnd
 * @src: source
 * Return: Always 0
 */

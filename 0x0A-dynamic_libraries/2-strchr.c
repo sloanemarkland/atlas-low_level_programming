@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *  _strchr - look for a letter and point to the first instance of it
-* @c: character to locate
+* @c: character to locate $mrklnd
 * @s: string
 * Return: Always 0
 */
