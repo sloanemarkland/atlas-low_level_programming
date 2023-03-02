@@ -14,7 +14,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	int name_length;
 	int owner_length;
 
-	puppy = (dog_t *) malloc(sizeof(dog_t));
 	if (puppy == NULL)
 		return (NULL);
 /*allocate mem for name and copy string*/
