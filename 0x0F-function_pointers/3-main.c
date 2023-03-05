@@ -10,31 +10,33 @@
 */
 int main(int argc, char *argv[])
 {
-	int num1, num2, *s;
+	int num1, num2;
+	int (*opfunk)(int, int);
 
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	if (strcmp(argv[3], "+") != 0 &&
-    	strcmp(argv[3], "-") != 0 &&
-    	strcmp(argv[3], "*") != 0 &&
-    	strcmp(argv[3], "/") != 0 &&
-    	strcmp(argv[3], "%") != 0)
+	opfunk = get_op_func(argv[2]);
+
+	if (opfunk == NULL)
 	{
-    printf("Error\n");
-    exit(99);
+	printf("Error\n");
+	exit(99);
 	}
-	if ((strcmp(argv[3], "/") == 0 || 
-		strcmp(argv[3], "%") == 0) && 
-		atoi(argv[4]) == 0)
+	if ((strcmp(argv[2], "/") == 0 ||
+		strcmp(argv[2], "%") == 0) &&
+		atoi(argv[3]) == 0)
 	{
-    printf("Error\n");
-    exit(100);
+	printf("Error\n");
+	exit(100);
 	}
 
-	num1 = atoi(argv[2]);
-	num2 = atoi(argv[4]);
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[3]);
 
+	printf("%d\n", opfunk(num1, num2));
+
+	return (0);
 }
