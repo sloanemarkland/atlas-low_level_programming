@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int num1, num2;
 	int (*opfunk)(int, int);
 
-	if (argc != 4 && strlen(argv[2]) != 1)
+	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
