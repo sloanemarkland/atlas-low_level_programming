@@ -14,21 +14,18 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	va_start(string_args, n);
 
-	if (separator == NULL)
-	{
-		printf("nil\n");
-	}
-
 	for (i = 0; i < n; i++)
 	{
 		char *str_chz = va_arg(string_args, char*);
 
-		printf("%s", str_chz);
+		if (str_chz == NULL)
+			printf("nil\n");
+
+		else
+			printf("%s", str_chz);
 
 		if (i < (n - 1) && separator != NULL)
-		{
 			printf("%s", separator);
-		}
 	}
 	printf("\n");
 	va_end(string_args);
