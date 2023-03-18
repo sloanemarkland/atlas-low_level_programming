@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * pop_listint - frees a linked list and sets head to NULL
+ * get_nodeint_at_index - return nth node
  * @head: pointer to pointer to the head of the linked list
- * @index: index of node (0,1,2)
+ * @index: index of node (0-indexed)
  * Return: nth node of list, or NULL
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
