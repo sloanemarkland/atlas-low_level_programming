@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_nodeint_end - function that adds new tail to listint_t
+ * free_listint - function that frees list
  * @head: ptr to head of list
  * Return: nada
 */
