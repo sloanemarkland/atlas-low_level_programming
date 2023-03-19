@@ -40,10 +40,10 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	return (1);
 }
 /**
- * listint_len - returns the number of elements in a linked list
- * @h: pointer to the head node of the list
+ * listint_len - return number of elements in a list
+ * @h: ptr to head of list
  *
- * Return: the number of elements in the list
+ * Return: number of elements in list
  */
 size_t listint_len(const listint_t *h)
 {
