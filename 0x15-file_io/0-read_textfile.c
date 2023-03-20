@@ -11,7 +11,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	 * this func takes a string 'filename' and an int 'letters'
 	 * it opens the file, reads it, and prints it to stdout
 	*/
-	
+
 	int fd, rd, wr;
 	char *buf;
 
