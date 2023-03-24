@@ -1,10 +1,9 @@
-#define MAIN_H
-#ifndef MAIN_H
+#ifndef HASH_TABLES_H
+#define HASH_TABLES_H
 
-#include <unistd.h>
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 #include <stdarg.h>
 
 /**
