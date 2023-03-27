@@ -17,13 +17,13 @@ void hash_table_print(const hash_table_t *ht)
 
 	printf("{");
 
-	for (index = 0; index < ht; index++) /*loop thru buckets in ht*/
+	for (index = 0; index < ht->size; index++) /*loop thru buckets in ht*/
 	{
 		current = ht->array[index]; /*assign a ptr to first node*/
-		while (search) /*loop thru nodes in bucket (linked list)*/
+		while (current) /*loop thru nodes in bucket (linked list)*/
 		{
 			if (flag == 0)
-				printf(", ")
+				printf(", ");
 			printf("'%s': '%s'", current->key, current->value);
 			flag = 0; /*set flag to 0 so next key/val pair is preceded by comma*/
 			current = current->next; /*move to next node in bucket*/
